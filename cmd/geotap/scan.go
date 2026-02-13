@@ -13,11 +13,11 @@ import (
 	"time"
 
 	"github.com/paulmach/orb"
-	"github.com/rendis/map_scrapper/internal/engine/geo"
-	"github.com/rendis/map_scrapper/internal/engine/scraper"
-	"github.com/rendis/map_scrapper/internal/engine/storage"
-	"github.com/rendis/map_scrapper/internal/model"
-	"github.com/rendis/map_scrapper/internal/tui"
+	"github.com/rendis/geotap/internal/engine/geo"
+	"github.com/rendis/geotap/internal/engine/scraper"
+	"github.com/rendis/geotap/internal/engine/storage"
+	"github.com/rendis/geotap/internal/model"
+	"github.com/rendis/geotap/internal/tui"
 )
 
 func runScan(args []string) error {

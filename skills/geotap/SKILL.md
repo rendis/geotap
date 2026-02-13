@@ -19,7 +19,7 @@ metadata:
   openclaw-os: "darwin linux windows"
   openclaw-user-invocable: "true"
   openclaw-install-type: "go"
-  openclaw-install-package: "github.com/rendis/map_scrapper/cmd/geotap"
+  openclaw-install-package: "github.com/rendis/geotap/cmd/geotap"
 ---
 
 # GeoTap
@@ -37,7 +37,7 @@ curl -fsSL https://raw.githubusercontent.com/rendis/geotap/main/install.sh | bas
 Or build from source:
 
 ```bash
-go install github.com/rendis/map_scrapper/cmd/geotap@latest
+go install github.com/rendis/geotap/cmd/geotap@latest
 ```
 
 ## CLI Usage
@@ -68,20 +68,20 @@ geotap
 
 ## Key Flags (scan)
 
-| Flag | Default | Description |
-|------|---------|-------------|
-| `-queries` | required | Comma-separated search terms |
-| `-output` | required | Output directory |
-| `-country` | | Country name or ISO code |
-| `-region` | | Region/state (optional) |
-| `-lat`/`-lng` | | Center coordinates |
-| `-radius` | 10 | Search radius in km |
-| `-zoom` | auto | Grid level 10-16 |
-| `-concurrency` | 10 | Parallel requests |
-| `-max-pages` | 1 | Pagination depth per sector |
-| `-min-rating` | 0 | Minimum star rating filter |
-| `-lang` | en | Search language |
-| `-proxy` | | HTTP/SOCKS5 proxy URL |
+| Flag           | Default  | Description                  |
+| -------------- | -------- | ---------------------------- |
+| `-queries`     | required | Comma-separated search terms |
+| `-output`      | required | Output directory             |
+| `-country`     |          | Country name or ISO code     |
+| `-region`      |          | Region/state (optional)      |
+| `-lat`/`-lng`  |          | Center coordinates           |
+| `-radius`      | 10       | Search radius in km          |
+| `-zoom`        | auto     | Grid level 10-16             |
+| `-concurrency` | 10       | Parallel requests            |
+| `-max-pages`   | 1        | Pagination depth per sector  |
+| `-min-rating`  | 0        | Minimum star rating filter   |
+| `-lang`        | en       | Search language              |
+| `-proxy`       |          | HTTP/SOCKS5 proxy URL        |
 
 ## Data Fields Extracted
 
@@ -100,9 +100,9 @@ See [architecture.md](references/architecture.md) for codebase structure.
 
 ## TUI Navigation
 
-| Screen | Keys |
-|--------|------|
-| Home | `n` new search, `l` load project, `r` recent, `q` quit |
-| Search | `tab`/`shift+tab` navigate, `enter` start, `esc` back |
-| Progress | `esc` cancel (confirm twice), `ctrl+c` quit |
+| Screen   | Keys                                                      |
+| -------- | --------------------------------------------------------- |
+| Home     | `n` new search, `l` load project, `r` recent, `q` quit    |
+| Search   | `tab`/`shift+tab` navigate, `enter` start, `esc` back     |
+| Progress | `esc` cancel (confirm twice), `ctrl+c` quit               |
 | Explorer | `/` filter, `1` details, `2` json, `e` export, `esc` back |

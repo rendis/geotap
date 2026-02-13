@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/rendis/map_scrapper/internal/tui/styles"
+	"github.com/rendis/geotap/internal/tui/styles"
 )
 
 // Point represents a geographic point to plot.

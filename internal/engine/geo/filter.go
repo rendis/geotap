@@ -4,7 +4,7 @@ import (
 	"github.com/paulmach/orb"
 	"github.com/paulmach/orb/planar"
 
-	"github.com/rendis/map_scrapper/internal/model"
+	"github.com/rendis/geotap/internal/model"
 )
 
 // FilterLandSectors removes sectors that fall in the ocean (outside the given polygon).

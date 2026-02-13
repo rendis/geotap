@@ -8,8 +8,8 @@ import (
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/rendis/map_scrapper/internal/engine/geo"
-	"github.com/rendis/map_scrapper/internal/tui/styles"
+	"github.com/rendis/geotap/internal/engine/geo"
+	"github.com/rendis/geotap/internal/tui/styles"
 )
 
 type searchMode int

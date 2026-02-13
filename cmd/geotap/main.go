@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rendis/map_scrapper/internal/tui"
+	"github.com/rendis/geotap/internal/tui"
 )
 
 var version = "dev"

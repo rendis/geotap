@@ -19,8 +19,8 @@ import (
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/rendis/map_scrapper/internal/model"
-	"github.com/rendis/map_scrapper/internal/tui/styles"
+	"github.com/rendis/geotap/internal/model"
+	"github.com/rendis/geotap/internal/tui/styles"
 )
 
 type focusArea int

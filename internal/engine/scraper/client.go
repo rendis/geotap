@@ -14,7 +14,7 @@ import (
 	"time"
 
 	utls "github.com/refraction-networking/utls"
-	"github.com/rendis/map_scrapper/internal/model"
+	"github.com/rendis/geotap/internal/model"
 )
 
 const (

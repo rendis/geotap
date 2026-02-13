@@ -8,9 +8,9 @@
 
 <p align="center">
   <a href="https://go.dev"><img src="https://img.shields.io/badge/Go-1.24+-00ADD8?style=flat&logo=go" alt="Go Version"></a>
-  <a href="https://pkg.go.dev/github.com/rendis/map_scrapper"><img src="https://pkg.go.dev/badge/github.com/rendis/map_scrapper.svg" alt="Go Reference"></a>
+  <a href="https://pkg.go.dev/github.com/rendis/geotap"><img src="https://pkg.go.dev/badge/github.com/rendis/geotap.svg" alt="Go Reference"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
-  <a href="https://goreportcard.com/report/github.com/rendis/map_scrapper"><img src="https://goreportcard.com/badge/github.com/rendis/map_scrapper" alt="Go Report Card"></a>
+  <a href="https://goreportcard.com/report/github.com/rendis/geotap"><img src="https://goreportcard.com/badge/github.com/rendis/geotap" alt="Go Report Card"></a>
   <a href="https://github.com/rendis/geotap/releases"><img src="https://img.shields.io/github/v/release/rendis/geotap" alt="Latest Release"></a>
   <a href="https://github.com/rendis/geotap/commits/main"><img src="https://img.shields.io/github/last-commit/rendis/geotap" alt="Last Commit"></a>
   <a href="https://github.com/rendis/geotap"><img src="https://img.shields.io/github/repo-size/rendis/geotap" alt="Repo Size"></a>
@@ -29,8 +29,12 @@ Google Maps scraper that requires no API key or login. Extracts business listing
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Key Features](#key-features)
 - [Installation](#installation)
+  - [One-line install (macOS / Linux)](#one-line-install-macos--linux)
+  - [Go install](#go-install)
+  - [Build from source](#build-from-source)
 - [Quick Start](#quick-start)
   - [TUI Mode](#tui-mode)
   - [CLI Scan](#cli-scan)
@@ -38,6 +42,8 @@ Google Maps scraper that requires no API key or login. Extracts business listing
 - [CLI Reference](#cli-reference)
 - [Data Fields](#data-fields)
 - [Anti-Blocking](#anti-blocking)
+  - [Why it works on a single IP](#why-it-works-on-a-single-ip)
+  - [Techniques](#techniques)
 - [Architecture](#architecture)
 - [AI Agent Skill](#ai-agent-skill)
   - [Install via skills.sh](#install-via-skillssh)
@@ -75,7 +81,7 @@ curl -fsSL https://raw.githubusercontent.com/rendis/geotap/main/install.sh | bas
 ### Go install
 
 ```bash
-go install github.com/rendis/map_scrapper/cmd/geotap@latest
+go install github.com/rendis/geotap/cmd/geotap@latest
 ```
 
 ### Build from source

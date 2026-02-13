@@ -3,7 +3,7 @@ package geo
 import (
 	"math"
 
-	"github.com/rendis/map_scrapper/internal/model"
+	"github.com/rendis/geotap/internal/model"
 )
 
 // ZoomToSpanDegrees converts a zoom level to the approximate span in degrees

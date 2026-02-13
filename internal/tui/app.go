@@ -3,7 +3,7 @@ package tui
 import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/rendis/map_scrapper/internal/tui/views"
+	"github.com/rendis/geotap/internal/tui/views"
 )
 
 type viewID int

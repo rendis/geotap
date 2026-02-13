@@ -11,8 +11,8 @@ import (
 
 	"github.com/paulmach/orb"
 	"github.com/paulmach/orb/planar"
-	"github.com/rendis/map_scrapper/internal/engine/storage"
-	"github.com/rendis/map_scrapper/internal/model"
+	"github.com/rendis/geotap/internal/engine/storage"
+	"github.com/rendis/geotap/internal/model"
 )
 
 type Stats struct {
