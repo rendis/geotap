@@ -1,0 +1,25 @@
+# Binary
+/geotap
+/geotap.exe
+
+# Scraper output
+*.db
+*.log
+*.csv
+projects/
+
+# PoC
+poc/
+
+# GoReleaser
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
