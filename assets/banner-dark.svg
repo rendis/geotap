@@ -5,6 +5,6 @@
       <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <text x="300" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="url(#grad)" text-anchor="middle" letter-spacing="-2">GeoTap</text>
-  <text x="300" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle" letter-spacing="4">GOOGLE MAPS GEOGRAPHIC DATA SCANNER</text>
+  <text x="300" y="65" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="800" fill="url(#grad)" text-anchor="middle" letter-spacing="-2">GeoTap</text>
+  <text x="300" y="100" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle" letter-spacing="4">GOOGLE MAPS GEOGRAPHIC DATA SCANNER</text>
 </svg>
