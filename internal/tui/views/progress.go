@@ -93,7 +93,7 @@ func NewProgressModel(msg StartScanMsg) ProgressModel {
 		m.params.Concurrency = 50
 	}
 	m.params.MaxPages = 1
-	m.params.Lang = "es"
+	m.params.Lang = "en"
 
 	// Setup output paths
 	ts := time.Now().Format("20060102_150405")

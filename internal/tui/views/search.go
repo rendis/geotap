@@ -52,7 +52,7 @@ func NewSearchModel() SearchModel {
 	inputs := make([]textinput.Model, fieldCount)
 
 	inputs[fieldMode] = textinput.New() // placeholder, never used
-	inputs[fieldQuery] = newInput("restaurantes, cafes", "", 60)
+	inputs[fieldQuery] = newInput("restaurants, cafes", "", 60)
 	inputs[fieldCountry] = newInput("type to search country...", "", 30)
 	inputs[fieldRegion] = newInput("optional: region, state, city...", "", 40)
 	inputs[fieldLat] = newInput("40.4168", "", 15)

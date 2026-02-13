@@ -39,7 +39,7 @@ func runScan(args []string) error {
 	fs.IntVar(&params.MaxPages, "max-pages", 1, "Max pagination pages per sector")
 	fs.Float64Var(&params.MinRating, "min-rating", 0, "Minimum star rating filter")
 	fs.Float64Var(&params.MaxRating, "max-rating", 0, "Maximum star rating filter")
-	fs.StringVar(&params.Lang, "lang", "es", "Search language")
+	fs.StringVar(&params.Lang, "lang", "en", "Search language")
 	fs.StringVar(&params.ProxyURL, "proxy", "", "HTTP/SOCKS5 proxy URL")
 	fs.BoolVar(&params.Debug, "debug", false, "Dump raw responses")
 
@@ -47,7 +47,7 @@ func runScan(args []string) error {
 		fmt.Fprintf(os.Stderr, "Usage: geotap scan [flags]\n\nFlags:\n")
 		fs.PrintDefaults()
 		fmt.Fprintf(os.Stderr, "\nExamples:\n")
-		fmt.Fprintf(os.Stderr, "  geotap scan -queries restaurantes -country Chile -output ./projects\n")
+		fmt.Fprintf(os.Stderr, "  geotap scan -queries restaurants -country Chile -output ./projects\n")
 		fmt.Fprintf(os.Stderr, "  geotap scan -queries \"cafes,bars\" -lat 40.4168 -lng -3.7038 -radius 5 -output ./projects\n")
 	}
 
