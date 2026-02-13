@@ -40,4 +40,4 @@ changelog:
 release:
   github:
     owner: rendis
-    name: map_scrapper
+    name: geotap

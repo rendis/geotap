@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="rendis/map_scrapper"
+REPO="rendis/geotap"
 BINARY="geotap"
 INSTALL_DIR="/usr/local/bin"
 
